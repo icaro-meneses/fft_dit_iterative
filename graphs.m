@@ -46,4 +46,4 @@ hold off;
 print_size = "-S1024,768";
 print(fft_fig, "fft_plot.pdf", "-dpdflatexstandalone", print_size);
 system("pdflatex fft_plot");
-
+print(fft_fig, "result_plot.png", "-dpng", print_size);

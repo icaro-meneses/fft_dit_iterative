@@ -3,7 +3,7 @@
 #
 
 # Nome do projeto
-PROJ_NAME=fft_time_dec.x
+PROJ_NAME=fft_dit_iter.x
 
 # Arquivos de código fonte .c
 C_SOURCE=$(wildcard *.c)
@@ -39,7 +39,7 @@ graph:
 	@echo " "
 	@mkdir -p ./results
 	@octave $(OCTAVE_SOURCE)
-	mv *.aux *.log *.tex *.pdf ./results
+	mv *.aux *.log *.tex *.pdf *.png ./results
 	@echo " "
 
 # 1º Passo: Início do processo de build
