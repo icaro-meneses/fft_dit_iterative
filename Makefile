@@ -38,8 +38,10 @@ LIBS=-lm
 graph: 
 	@echo " "
 	@mkdir -p ./results
+	@mkdir -p ./images
 	@octave $(OCTAVE_SOURCE)
-	mv *.aux *.log *.tex *.pdf *.png ./results
+	mv *.aux *.log *.tex *.pdf ./results
+	mv *.png ./images
 	@echo " "
 
 # 1º Passo: Início do processo de build
@@ -77,6 +79,7 @@ clean:
 	@echo "Removing object files and executable files..."
 	rm *.o *.txt $(PROJ_NAME)
 	rm -rf ./results
+	rm -rf ./images
 	@echo "Cleaning Completed."
 	@echo " "
 

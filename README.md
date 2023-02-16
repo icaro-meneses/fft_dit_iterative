@@ -62,7 +62,7 @@ $$x(t) = \sin(2 \pi 1000 t) + 0.5 \cdot \sin(2 \pi 2000 t + \frac{3 \pi}{4})$$
 
 o resultado da operação de FFT de tamanho $N = 8192$ é
 
-![Resultado da FFT do sinal x(t)](./results/result_plot.png "FFT Result")
+![Resultado da FFT do sinal x(t)](./images/result_plot.png "FFT Result")
 
 **Nota:** O código ainda requer testes.
 
