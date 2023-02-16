@@ -38,7 +38,7 @@ typedef struct complex_double
 						  num_b_real,                                \
 						  num_b_imag)                                \
 	(num_a_real * num_b_real - num_a_imag * num_b_imag)
-#define complex_mult_imag(num_a_re,                                  \
+#define complex_mult_imag(num_a_real,                                \
 						  num_a_imag,                                \
 						  num_b_real,                                \
 						  num_b_imag)                                \
